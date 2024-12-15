@@ -1,11 +1,11 @@
 # Laboratory work 1
 
 ## Variant
-C5: Variant 4: C = A * B (the matrix product)
+**C5**: Variant 4: C = A * B (the matrix product)
 
-C7: Variant 3: int
+**C7**: Variant 3: int
 
-C11: Variant 2: Calculate the sum of the largest elements of each column of a matrix
+**C11**: Variant 2: Calculate the sum of the largest elements of each column of a matrix
 
 ## Description
 This program performs the following actions:
