@@ -1,5 +1,4 @@
 package org.example;
-import java.util.Scanner;
 
 public class Main {
     /**
@@ -11,17 +10,12 @@ public class Main {
      * Відсортувати слова заданого тексту, що починаються з голосних літер, за другою літерою.
      */
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
-            String inputText = null;
-            System.out.println("Enter text: ");
-            inputText = scanner.nextLine();
-
+        try {
+            String inputText = InputValidator.getFilledText();
             StringBuilder text = new StringBuilder(inputText);
-
 
             String result = SortingOperations.processText(text);
             System.out.println("Sort result: " + result);
-
         } catch (Exception e) {
             System.err.println("Error: " + e.getMessage());
         }
