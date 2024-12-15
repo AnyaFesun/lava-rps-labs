@@ -1,5 +1,10 @@
 # Laboratory work 2
 
+## Variant
+**C3**: Variant 0: StringBuilder
+
+**C17**: Variant 7: Sort words in the given text that begin with vowels by the second letter.
+
 ## Description
 A text processing program performs the following actions:
 - Selects all words that begin with English vowels.
