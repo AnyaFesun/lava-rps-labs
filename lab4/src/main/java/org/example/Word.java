@@ -17,7 +17,9 @@ class Word {
     public Word(String word) {
         this.letters = new ArrayList<>();
         for (char c : word.toCharArray()) {
-            this.letters.add(new Letter(c));
+            if (Character.isLetter(c)) {
+                this.letters.add(new Letter(c));
+            }
         }
     }
 

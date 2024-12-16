@@ -4,9 +4,8 @@ public class Main {
     /**
      * @summary
      * StudentVariant - 24
-     * C3 = 0 C17 = 7
+     * C17 = 7
      *
-     * StringBuilder
      * Відсортувати слова заданого тексту, що починаються з голосних літер, за другою літерою.
      */
     public static void main(String[] args) {
